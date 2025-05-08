@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Click Filter",
+  "version": "1.0",
+  "description": "Clicks filter elements on the page",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
